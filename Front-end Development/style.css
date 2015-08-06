@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+.btn-primary{
+	background:red;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:disabled{
+	background:yellow;
+}
+
+.hero-unit{
+	padding:0px;
+	background: #222 url(img/o-WOMEN-IN-TECH-facebook.jpg) no-repeat 50% top;
+	background-size:cover;
+	border-radius:0;
+	margin-bottom:0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#7d7d7d;
+}
+
+@font-face{
+	font-family: "Museo";
+	src: url('fonts/Museo700.otf') format('truetype');
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Museo", Rockwell, "MS Serif", "New York", serif;
+	color:#333333;
+}
+
+a{
+	color:#fb2f3a;
+}
+
+a:hover a:focus{
+	color: #eb2f39;
+	text-decoration:none;
+	border-bottom:1px solid #ddd;
+}
+
+.btn{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background:#9a9c9f;
+	color:#fff;
+	text-shadow:none;
+	box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(0,0,0, 0.2);
+	font-size:12px;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+.btn:hover, .btn:focus{
+	background:#8e9093;
+	color:#fff;
+	border-bottom: 1px solid #ddd;
+}
+.navbar-inner{
+
+	background: transparent;
+	border:none;
+	box-shadow:none;
+}
+
+.navbar{
+	margin-top:30px;
+	border-bottom: 1px solid rgba(255,255,255, .2);
+}
+
+.navbar .brand{
+	text-indent:-999px;
+	background: url(img/brand.png) no-repeat;
+	width:324px;
+	height:38px;
+	margin:0;
+}
+
+.navbar .brand:hover{
+	border-bottom: none;
+}
+.navbar .nav {
+	padding:0;
+	margin:0;
+	float:right;
+}
+
+.navbar .nav > li > a{
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:none;
+	color: #9a9c9f;
+	padding: 3px 20px;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover{
+	color: rgba(255, 255, 255, 0.7);
+	border-bottom:none;
+	background:none;
+}
+
+.navbar .btn-navbar{
+	background:#fff;
+	border:none;
+}
+
+.navbar .btn-navbar .icon-bar{
+	background:#000;
+	box-shadow:none;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+	box-shadow: none;
+	background:rgba(0,0,0, 0.7);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#fff;
+}
+
+/*End Navbar */
+
+/* Banner */
+.carousel-control{
+	border-radius: 0;
+	border:none;
+	font-size: 32px;
+	width: 30px;
+	height : 60px;
+	line-height: 55px;
+	top : 40%;
+	background: #000;
+	opacity:0.7;
+}
+.carousel-control.left{
+	left: 0;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.carousel-control:hover{
+	border:none;
+}
+
+.carousel-control.right{
+	right:0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+	
+/** hero-unit-inner begin **/
+
+.hero-unit-inner h1{
+	margin-top:50px;
+	margin-bottom:20px;
+	font-size: 48px;
+	color: #a6a1a1;
+	text-shadow: 0 1px 0 rgba(0,0,0, 0.3);
+}
+
+.hero-unit-inner h4{
+	color:#555555;
+	text-shadow:0 1px 0 rgba(0,0,0, 0.3);
+	margin-bottom:30px;
+}
+
+.hero-unit-inner a{
+	margin-left:15px;
+	color:#1d2a62;
+	border-bottom: 1px solid #1d2a62;
+}
+
+.hero-unit-inner img{
+	margin-top: 30px;
+}
+
+.hero-unit-inner .btn-primary{
+	background:#fb2f3a;
+	border:none;
+	box-shadow:0 2px 1px rgba(0,0,0, 0.3);
+	font-size: 16px;
+	font-weight:bold;
+	text-shadow:none;
+	margin-top:0;
+}
+
+/** process **/
+
+#process{
+	background:#eeeeee;
+	border-bottom:#dddddd;
+	border-top: 1px solid #fff;
+	box-shadow:0 -3px 5px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 10;
+	padding:60px 0;
+}
+
+.h-line{
+	max-height:5px;
+	background: url(img/h-line.jpg) repeat-x;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position:relative;
+	top:55px;
+	z-index:-1;
+}
+.process-icon{
+	margin-bottom:15px;
+	width:100px;
+	height:100px;
+	display: inline-block;
+	background:transparent url(img/process.png) no-repeat;
+	background-position: left top;
+}
+
+.process-icon.idesign{
+	background-position: -100px top;
+}
+
+.process-icon.idevelop{
+	background-position: -200px top;
+}
+
+.process-icon.ilaunch{
+	background-position: -300px top;
+}
+
+.heading{
+	margin-bottom:20px;
+}
+
+/** Portfolio **/
+
+#portfolio{
+	padding:60px 0;
+}
+.title{
+	margin-bottom:0;
+}
+.category{
+	font-size:12px;
+	color:#999999;
+}
+
+/** Partners **/
+#partners{
+	padding:60px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#widgets{
+	padding:50px 0 60px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.testimonials blockquote{
+	overflow: hidden;
+	border:none;
+}
+
+.testimonials blockquote p{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	color:#7d7d7d;
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+.testimonials blockquote cite{
+	color:#333;
+}
+
+.blog-lists{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.blog-lists li, .tweet-lists li{
+	border-bottom: 1px solid #ddd;
+	padding:20px 0;
+}
+
+.blog-lists li:first-child, .tweet-lists li:first-child{
+	padding-top:0;
+}
+
+.blog-lists li:last-child, .tweet-lists li:last-child{
+	border-bottom:0;
+}
+	
+.blog-lists h3{
+	margin-bottom: 0;
+	padding:0;
+	margin:0;
+}
+
+.blog-lists h5 a{
+	color:#333;
+}
+
+.blog-lists h5 a:hover{
+	color:#444;
+}
+
+.tweet-lists{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.tweet-lists li img{
+	margin-right:20px;
+}
+
+.footer-links{
+	list-style: none;
+	display:inline-block;
+}
+
+.footer-links li{
+	float:left;
+	margin-right: 40px;
+}
+
+.footer{
+	padding:60px 0;
+}
+
+.footer-links li a{
+	color:#666666;
+	font-size:12px;
+}
+
+.table{
+	display:table;
+	margin: 0 auto;
+}
+#social{
+	clear:both;
+	margin-bottom:30px;
+}
+
+.twitter{
+	background:#569ccd;
+	margin-right:5px;
+}
+
+.facebook{
+	background:#2272a9;
+}
+
+.twitter:hover, .twitter:focus{
+	background: #4f91bf;
+}
+.facebook:hover, .facebook:focus{
+	background:#20699c;
+}
+
+.social-sprite{
+	width: 17px;
+	height: 16px;
+	display:inline-block;
+	background: transparent url(img/smallthumbnail3.png) no-repeat;
+	background-position: left top;
+}
+
+.social-sprite.facebook{
+	background-position: -17px top;
+}
+
+@media(min-width:768px) and (max-width:979px){
+	.navbar .nav{
+		float:none;
+		margin-bottom:20px;
+	}
+	body{
+		padding:0;
+	}
+}
+@media (max-width: 767px){
+	.navbar .nav{
+		float:none;
+		margin-bottom:20px;
+	}
+	body{
+		padding:0;
+	}
+	.hero-unit-inner{
+		padding: 0 40px;
+	}
+	.plan, .design, .develop, .launch, .testimonials, .p-item, .blog, .tweets{
+		margin-bottom: 40px; padding: 0 40px;
+	}
+	#partners img{
+		margin-bottom: 40px;
+	}
+}
+		
